@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing and build
+out/
+dist/
+build/
+.cache/
+
+# Large binaries & rendered videos
+*.mp4
+*.pt
+scratch/silero_v3_ru.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log

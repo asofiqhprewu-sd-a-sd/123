@@ -1,0 +1,52 @@
+{
+  "title": "Битва ИИ гигантов",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/ambient_tech.wav",
+  "bgMusicVolume": 0.12,
+  "narrator": "avatars/amodei.jpg",
+  "showProgressBar": true,
+  "progressBarColor": "#38bdf8",
+  "scenes": [
+    {
+      "id": "s1_hook",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "кто создаст первый настоящий сверхинтеллект",
+      "icon": "icons/robot_head.svg",
+      "sfx": "sfx/pop.wav",
+      "pills": [
+        { "text": "AGI гонка", "color": "#06b6d4" },
+        { "text": "2026", "color": "#1f2937" }
+      ]
+    },
+    {
+      "id": "s2_vs",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "две разные философии одной цели",
+      "comparison": {
+        "leftTitle": "Claude 3.5 Sonnet",
+        "leftIcon": "icons/claude.png",
+        "leftStat": "93.7% код бенчмарки",
+        "rightTitle": "GPT-4o",
+        "rightIcon": "icons/openai.png",
+        "rightStat": "Мультимодальный флагман"
+      },
+      "sfx": "sfx/impact.wav"
+    },
+    {
+      "id": "s3_quote",
+      "durationInFrames": 120,
+      "theme": "purple",
+      "text": "слова которые изменят всё",
+      "quote": {
+        "text": "Мы приближаемся к моменту, когда ИИ превзойдёт нобелевских лауреатов во всех дисциплинах.",
+        "author": "Дарио Амодеи",
+        "title": "CEO Anthropic"
+      },
+      "sfx": "sfx/whoosh.wav"
+    }
+  ]
+}

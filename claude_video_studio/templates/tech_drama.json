@@ -1,0 +1,71 @@
+{
+  "title": "Корпоративная битва за ИИ",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/ambient_tech.wav",
+  "bgMusicVolume": 0.12,
+  "narrator": "avatars/amodei.jpg",
+  "scenes": [
+    {
+      "id": "s1_hook",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "самый громкий скандал в кремниевой долине",
+      "icon": "icons/openai.png",
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "s2_hero",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "сэм альтман был уволен за один день",
+      "person": {
+        "name": "сэм альтман",
+        "image": "avatars/altman.jpg"
+      },
+      "sfx": "sfx/drop.wav"
+    },
+    {
+      "id": "s3_conflict",
+      "durationInFrames": 120,
+      "theme": "red",
+      "text": "совет директоров против основателя",
+      "diagram": {
+        "leftIcon": "icons/building.png",
+        "rightIcon": "icons/microsoft.png",
+        "leftLabel": "совет директоров",
+        "rightLabel": "microsoft"
+      },
+      "sfx": "sfx/whoosh.wav"
+    },
+    {
+      "id": "s4_tweet",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "но 95 процентов сотрудников встали за ним",
+      "tweet": {
+        "name": "Ilya Sutskever",
+        "handle": "@ilyasut",
+        "avatar": "avatars/sutskever.jpg",
+        "text": "I deeply regret my participation in the board's actions."
+      },
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "s5_resolution",
+      "durationInFrames": 120,
+      "theme": "purple",
+      "text": "через пять дней он вернулся триумфатором",
+      "iconsGroup": [
+        "icons/openai.png",
+        "icons/claude.png"
+      ],
+      "pills": [
+        { "text": "победа", "color": "#10b981" },
+        { "text": "новый совет", "color": "#1f2937" }
+      ],
+      "sfx": "sfx/ping.wav"
+    }
+  ]
+}

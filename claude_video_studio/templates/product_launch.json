@@ -1,0 +1,55 @@
+{
+  "title": "Новый технологический прорыв",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/ambient_tech.wav",
+  "bgMusicVolume": 0.12,
+  "narrator": "avatars/amodei.jpg",
+  "scenes": [
+    {
+      "id": "s1_hook",
+      "durationInFrames": 90,
+      "theme": "blue",
+      "showGrass": true,
+      "text": "мир технологий изменился навсегда",
+      "icon": "icons/clock.png",
+      "sfx": "sfx/whoosh.wav"
+    },
+    {
+      "id": "s2_secret",
+      "durationInFrames": 90,
+      "theme": "purple",
+      "text": "новая архитектура нейросети",
+      "icon": "icons/brain.png",
+      "sfx": "sfx/ping.wav"
+    },
+    {
+      "id": "s3_release",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "официальная дата релиза",
+      "calendar": {
+        "month": "ноябрь",
+        "day": "30"
+      },
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "s4_scale",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "миллион пользователей за пять дней",
+      "iconsGroup": [
+        "icons/openai.png",
+        "icons/claude.png",
+        "icons/xai.png"
+      ],
+      "pills": [
+        { "text": "1 000 000+", "color": "#2563eb" },
+        { "text": "мировой рекорд", "color": "#1f2937" }
+      ],
+      "sfx": "sfx/pop.wav"
+    }
+  ]
+}

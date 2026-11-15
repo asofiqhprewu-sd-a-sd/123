@@ -1,0 +1,127 @@
+{
+  "title": "Как появилась нейросеть",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/ambient_tech.wav",
+  "bgMusicVolume": 0.12,
+  "narrator": "avatars/amodei.jpg",
+  "scenes": [
+    {
+      "id": "scene_1_intro",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "как появилась нейросеть",
+      "icon": "icons/openai.png",
+      "iconSize": 400,
+      "sfx": "sfx/pop.wav",
+      "glowColor": "rgba(16, 185, 129, 0.4)"
+    },
+    {
+      "id": "scene_2_summer_2015",
+      "durationInFrames": 90,
+      "theme": "blue",
+      "showGrass": true,
+      "text": "летом пятнадцатого года",
+      "icon": "icons/clock.png",
+      "iconSize": 340,
+      "sfx": "sfx/whoosh.wav",
+      "glowColor": "rgba(56, 189, 248, 0.4)"
+    },
+    {
+      "id": "scene_3_elon_musk",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "илон маск",
+      "person": {
+        "name": "илон маск",
+        "image": "avatars/musk.jpg"
+      },
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "scene_4_fear_ai",
+      "durationInFrames": 90,
+      "theme": "purple",
+      "text": "их пугает искусственный интеллект",
+      "icon": "icons/brain.png",
+      "iconSize": 380,
+      "sfx": "sfx/ping.wav",
+      "glowColor": "rgba(168, 85, 247, 0.4)"
+    },
+    {
+      "id": "scene_5_founders",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "из крупного платёжного сервиса",
+      "people": [
+        {
+          "name": "илья",
+          "image": "avatars/sutskever.jpg"
+        },
+        {
+          "name": "грег",
+          "image": "avatars/brockman.jpg"
+        }
+      ],
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "scene_6_crisis",
+      "durationInFrames": 120,
+      "theme": "red",
+      "text": "денег нет",
+      "diagram": {
+        "leftIcon": "icons/building.png",
+        "rightIcon": "icons/microsoft.png",
+        "leftLabel": "лаборатория",
+        "rightLabel": "инвестор"
+      },
+      "sfx": "sfx/drop.wav"
+    },
+    {
+      "id": "scene_7_release_date",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "тридцатое ноября двадцать второго",
+      "calendar": {
+        "month": "ноябрь",
+        "day": "30"
+      },
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "scene_8_drama_tweet",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "подписывает даже илья",
+      "person": {
+        "image": "avatars/sutskever.jpg"
+      },
+      "tweet": {
+        "name": "Ilya Sutskever",
+        "handle": "@ilyasut",
+        "avatar": "avatars/sutskever.jpg",
+        "text": "I deeply regret my participation in the board's actions."
+      },
+      "sfx": "sfx/pop.wav"
+    },
+    {
+      "id": "scene_9_climax",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "из одного спора рождается будущее",
+      "iconsGroup": [
+        "icons/openai.png",
+        "icons/claude.png",
+        "icons/xai.png"
+      ],
+      "pills": [
+        { "text": "ресторан", "color": "#1f2937" },
+        { "text": "за столом", "color": "#1f2937" },
+        { "text": "двое", "color": "#1f2937" }
+      ],
+      "sfx": "sfx/pop.wav"
+    }
+  ]
+}

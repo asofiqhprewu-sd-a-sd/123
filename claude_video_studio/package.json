@@ -1,0 +1,19 @@
+{
+  "name": "claude-video-studio",
+  "version": "1.0.0",
+  "description": "AI-powered Motion Graphics Video Studio for Claude and Developers",
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "remotion studio src/index.jsx --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "preview": "remotion studio src/index.jsx --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "render": "remotion render src/index.jsx MainVideo out/video.mp4 --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "still": "remotion still src/index.jsx MainVideo out/frame.png --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\""
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.543",
+    "@remotion/transitions": "^4.0.543",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.543"
+  }
+}

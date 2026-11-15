@@ -1,0 +1,951 @@
+{
+  "title": "Эдвард Торп: Как математик обыграл мафию Лас-Вегаса",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/casino_thriller.wav",
+  "bgMusicVolume": 0.14,
+  "voiceAudio": "audio/thorp_voice.wav",
+  "voiceVolume": 1.0,
+  "showProgressBar": true,
+  "progressBarColor": "#f59e0b",
+  "scenes": [
+    {
+      "id": "slide01_vegas_intro",
+      "durationInFrames": 288,
+      "photo": "photos/thorp/slides/slide01.jpg",
+      "text": "в 1960 году владельцы казино лас-вегаса считали себя богами",
+      "words": [
+        {
+          "text": "в",
+          "start": 0.0,
+          "end": 0.53
+        },
+        {
+          "text": "1960",
+          "start": 0.53,
+          "end": 1.07
+        },
+        {
+          "text": "году",
+          "start": 1.07,
+          "end": 1.6
+        },
+        {
+          "text": "владельцы",
+          "start": 1.6,
+          "end": 2.13
+        },
+        {
+          "text": "казино",
+          "start": 2.13,
+          "end": 2.67
+        },
+        {
+          "text": "лас-вегаса",
+          "start": 2.67,
+          "end": 3.2
+        },
+        {
+          "text": "считали",
+          "start": 3.2,
+          "end": 3.73
+        },
+        {
+          "text": "себя",
+          "start": 3.73,
+          "end": 4.27
+        },
+        {
+          "text": "богами",
+          "start": 4.27,
+          "end": 4.8
+        }
+      ],
+      "badge": {
+        "icon": "📍",
+        "label": "Лас-Вегас • 1960 год",
+        "sub": "Золотая эра казино"
+      },
+      "sfx": "sfx/whoosh.wav",
+      "sfxVolume": 0.12
+    },
+    {
+      "id": "slide02_mafia_rule",
+      "durationInFrames": 252,
+      "photo": "photos/thorp/slides/slide02.jpg",
+      "text": "математика была на их стороне а за порядком следила вооружённая мафия",
+      "words": [
+        {
+          "text": "математика",
+          "start": 0.0,
+          "end": 0.38
+        },
+        {
+          "text": "была",
+          "start": 0.38,
+          "end": 0.76
+        },
+        {
+          "text": "на",
+          "start": 0.76,
+          "end": 1.15
+        },
+        {
+          "text": "их",
+          "start": 1.15,
+          "end": 1.53
+        },
+        {
+          "text": "стороне",
+          "start": 1.53,
+          "end": 1.91
+        },
+        {
+          "text": "а",
+          "start": 1.91,
+          "end": 2.29
+        },
+        {
+          "text": "за",
+          "start": 2.29,
+          "end": 2.67
+        },
+        {
+          "text": "порядком",
+          "start": 2.67,
+          "end": 3.05
+        },
+        {
+          "text": "следила",
+          "start": 3.05,
+          "end": 3.44
+        },
+        {
+          "text": "вооружённая",
+          "start": 3.44,
+          "end": 3.82
+        },
+        {
+          "text": "мафия",
+          "start": 3.82,
+          "end": 4.2
+        }
+      ],
+      "badge": {
+        "icon": "⚠️",
+        "label": "Мафия Лас-Вегаса",
+        "sub": "Железный контроль"
+      },
+      "sfx": "sfx/pop.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "🕶️",
+        "title": "Контроль игорного бизнеса",
+        "value": "Вооружённая мафия и криминал",
+        "glowColor": "rgba(239, 68, 68, 0.4)",
+        "borderColor": "rgba(239, 68, 68, 0.6)",
+        "valueColor": "#f87171"
+      }
+    },
+    {
+      "id": "slide03_casino_vault",
+      "durationInFrames": 150,
+      "photo": "photos/thorp/slides/slide03.jpg",
+      "text": "никто не мог уйти с их деньгами",
+      "words": [
+        {
+          "text": "никто",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "не",
+          "start": 0.36,
+          "end": 0.71
+        },
+        {
+          "text": "мог",
+          "start": 0.71,
+          "end": 1.07
+        },
+        {
+          "text": "уйти",
+          "start": 1.07,
+          "end": 1.43
+        },
+        {
+          "text": "с",
+          "start": 1.43,
+          "end": 1.79
+        },
+        {
+          "text": "их",
+          "start": 1.79,
+          "end": 2.14
+        },
+        {
+          "text": "деньгами",
+          "start": 2.14,
+          "end": 2.5
+        }
+      ],
+      "badge": {
+        "icon": "🔒",
+        "label": "Сейфы казино",
+        "sub": "Нулевые шансы"
+      },
+      "sfx": "sfx/click.wav",
+      "sfxVolume": 0.1
+    },
+    {
+      "id": "slide04_professor_thorp",
+      "durationInFrames": 300,
+      "photo": "photos/thorp/slides/slide04.jpg",
+      "text": "пока за игорный стол не сел скромный профессор математики эдвард торп",
+      "words": [
+        {
+          "text": "пока",
+          "start": 0.0,
+          "end": 0.45
+        },
+        {
+          "text": "за",
+          "start": 0.45,
+          "end": 0.91
+        },
+        {
+          "text": "игорный",
+          "start": 0.91,
+          "end": 1.36
+        },
+        {
+          "text": "стол",
+          "start": 1.36,
+          "end": 1.82
+        },
+        {
+          "text": "не",
+          "start": 1.82,
+          "end": 2.27
+        },
+        {
+          "text": "сел",
+          "start": 2.27,
+          "end": 2.73
+        },
+        {
+          "text": "скромный",
+          "start": 2.73,
+          "end": 3.18
+        },
+        {
+          "text": "профессор",
+          "start": 3.18,
+          "end": 3.64
+        },
+        {
+          "text": "математики",
+          "start": 3.64,
+          "end": 4.09
+        },
+        {
+          "text": "эдвард",
+          "start": 4.09,
+          "end": 4.55
+        },
+        {
+          "text": "торп",
+          "start": 4.55,
+          "end": 5.0
+        }
+      ],
+      "badge": {
+        "icon": "🎓",
+        "label": "Эдвард Торп",
+        "sub": "Профессор MIT"
+      },
+      "sfx": "sfx/pop.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "🧠",
+        "title": "Гений теории вероятностей",
+        "value": "Доктор математики UCLA & MIT",
+        "glowColor": "rgba(56, 189, 248, 0.4)",
+        "borderColor": "rgba(56, 189, 248, 0.6)",
+        "valueColor": "#38bdf8"
+      }
+    },
+    {
+      "id": "slide05_no_luck_pure_math",
+      "durationInFrames": 114,
+      "photo": "photos/thorp/slides/slide05.jpg",
+      "text": "торп не верил в удачу",
+      "words": [
+        {
+          "text": "торп",
+          "start": 0.0,
+          "end": 0.38
+        },
+        {
+          "text": "не",
+          "start": 0.38,
+          "end": 0.76
+        },
+        {
+          "text": "верил",
+          "start": 0.76,
+          "end": 1.14
+        },
+        {
+          "text": "в",
+          "start": 1.14,
+          "end": 1.52
+        },
+        {
+          "text": "удачу",
+          "start": 1.52,
+          "end": 1.9
+        }
+      ],
+      "badge": {
+        "icon": "📐",
+        "label": "Чистый расчёт",
+        "sub": "Формула вероятности"
+      },
+      "sfx": "sfx/ping.wav",
+      "sfxVolume": 0.1
+    },
+    {
+      "id": "slide06_ibm704_mit",
+      "durationInFrames": 402,
+      "photo": "photos/thorp/slides/slide06.jpg",
+      "text": "на суперкомпьютере mit он просчитал миллионы комбинаций и создал подсчёт карт",
+      "words": [
+        {
+          "text": "на",
+          "start": 0.0,
+          "end": 0.61
+        },
+        {
+          "text": "суперкомпьютере",
+          "start": 0.61,
+          "end": 1.22
+        },
+        {
+          "text": "mit",
+          "start": 1.22,
+          "end": 1.83
+        },
+        {
+          "text": "он",
+          "start": 1.83,
+          "end": 2.44
+        },
+        {
+          "text": "просчитал",
+          "start": 2.44,
+          "end": 3.05
+        },
+        {
+          "text": "миллионы",
+          "start": 3.05,
+          "end": 3.65
+        },
+        {
+          "text": "комбинаций",
+          "start": 3.65,
+          "end": 4.26
+        },
+        {
+          "text": "и",
+          "start": 4.26,
+          "end": 4.87
+        },
+        {
+          "text": "создал",
+          "start": 4.87,
+          "end": 5.48
+        },
+        {
+          "text": "подсчёт",
+          "start": 5.48,
+          "end": 6.09
+        },
+        {
+          "text": "карт",
+          "start": 6.09,
+          "end": 6.7
+        }
+      ],
+      "badge": {
+        "icon": "💻",
+        "label": "Лаборатория MIT • 1960",
+        "sub": "Суперкомпьютер IBM 704"
+      },
+      "sfx": "sfx/pop.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "⚙️",
+        "title": "Суперкомпьютер IBM 704",
+        "value": "Миллионы комбинаций блэкджека",
+        "glowColor": "rgba(56, 189, 248, 0.4)",
+        "borderColor": "rgba(56, 189, 248, 0.6)",
+        "valueColor": "#7dd3fc"
+      }
+    },
+    {
+      "id": "slide07_arrival_nevada",
+      "durationInFrames": 204,
+      "photo": "photos/thorp/slides/slide07.jpg",
+      "text": "когда профессор приехал в неваду казино замерли",
+      "words": [
+        {
+          "text": "когда",
+          "start": 0.0,
+          "end": 0.49
+        },
+        {
+          "text": "профессор",
+          "start": 0.49,
+          "end": 0.97
+        },
+        {
+          "text": "приехал",
+          "start": 0.97,
+          "end": 1.46
+        },
+        {
+          "text": "в",
+          "start": 1.46,
+          "end": 1.94
+        },
+        {
+          "text": "неваду",
+          "start": 1.94,
+          "end": 2.43
+        },
+        {
+          "text": "казино",
+          "start": 2.43,
+          "end": 2.91
+        },
+        {
+          "text": "замерли",
+          "start": 2.91,
+          "end": 3.4
+        }
+      ],
+      "badge": {
+        "icon": "🎲",
+        "label": "Прибытие в Неваду",
+        "sub": "Начало операции"
+      },
+      "sfx": "sfx/whoosh.wav",
+      "sfxVolume": 0.1
+    },
+    {
+      "id": "slide08_blackjack_jackpot",
+      "durationInFrames": 192,
+      "photo": "photos/thorp/slides/slide08.jpg",
+      "text": "за одну ночь он выносил десятки тысяч долларов",
+      "words": [
+        {
+          "text": "за",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "text": "одну",
+          "start": 0.4,
+          "end": 0.8
+        },
+        {
+          "text": "ночь",
+          "start": 0.8,
+          "end": 1.2
+        },
+        {
+          "text": "он",
+          "start": 1.2,
+          "end": 1.6
+        },
+        {
+          "text": "выносил",
+          "start": 1.6,
+          "end": 2.0
+        },
+        {
+          "text": "десятки",
+          "start": 2.0,
+          "end": 2.4
+        },
+        {
+          "text": "тысяч",
+          "start": 2.4,
+          "end": 2.8
+        },
+        {
+          "text": "долларов",
+          "start": 2.8,
+          "end": 3.2
+        }
+      ],
+      "badge": {
+        "icon": "💵",
+        "label": "Разгром казино",
+        "sub": "Триумф математики"
+      },
+      "sfx": "sfx/cash.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "💰",
+        "title": "Выигрыш за 1 ночь",
+        "value": "+$20,000 чистыми наличными",
+        "glowColor": "rgba(34, 197, 94, 0.4)",
+        "borderColor": "rgba(34, 197, 94, 0.6)",
+        "valueColor": "#4ade80"
+      }
+    },
+    {
+      "id": "slide09_dealers_panic",
+      "durationInFrames": 366,
+      "photo": "photos/thorp/slides/slide09.jpg",
+      "text": "дилеры потели охрана не понимала в чём дело он считал быстрее человека",
+      "words": [
+        {
+          "text": "дилеры",
+          "start": 0.0,
+          "end": 0.51
+        },
+        {
+          "text": "потели",
+          "start": 0.51,
+          "end": 1.02
+        },
+        {
+          "text": "охрана",
+          "start": 1.02,
+          "end": 1.52
+        },
+        {
+          "text": "не",
+          "start": 1.52,
+          "end": 2.03
+        },
+        {
+          "text": "понимала",
+          "start": 2.03,
+          "end": 2.54
+        },
+        {
+          "text": "в",
+          "start": 2.54,
+          "end": 3.05
+        },
+        {
+          "text": "чём",
+          "start": 3.05,
+          "end": 3.56
+        },
+        {
+          "text": "дело",
+          "start": 3.56,
+          "end": 4.07
+        },
+        {
+          "text": "он",
+          "start": 4.07,
+          "end": 4.57
+        },
+        {
+          "text": "считал",
+          "start": 4.57,
+          "end": 5.08
+        },
+        {
+          "text": "быстрее",
+          "start": 5.08,
+          "end": 5.59
+        },
+        {
+          "text": "человека",
+          "start": 5.59,
+          "end": 6.1
+        }
+      ],
+      "badge": {
+        "icon": "👀",
+        "label": "Паника дилеров",
+        "sub": "Охрана в шоке"
+      },
+      "sfx": "sfx/pop.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "⚡",
+        "title": "Скорость ума профессора",
+        "value": "Счёт карт быстрее дилера",
+        "glowColor": "rgba(245, 158, 11, 0.4)",
+        "borderColor": "rgba(245, 158, 11, 0.6)",
+        "valueColor": "#facc15"
+      }
+    },
+    {
+      "id": "slide10_mob_hunt",
+      "durationInFrames": 180,
+      "photo": "photos/thorp/slides/slide10.jpg",
+      "text": "владельцы казино объявили на торпа охоту",
+      "words": [
+        {
+          "text": "владельцы",
+          "start": 0.0,
+          "end": 0.5
+        },
+        {
+          "text": "казино",
+          "start": 0.5,
+          "end": 1.0
+        },
+        {
+          "text": "объявили",
+          "start": 1.0,
+          "end": 1.5
+        },
+        {
+          "text": "на",
+          "start": 1.5,
+          "end": 2.0
+        },
+        {
+          "text": "торпа",
+          "start": 2.0,
+          "end": 2.5
+        },
+        {
+          "text": "охоту",
+          "start": 2.5,
+          "end": 3.0
+        }
+      ],
+      "badge": {
+        "icon": "🚨",
+        "label": "Охота мафии",
+        "sub": "Чрезвычайные меры"
+      },
+      "sfx": "sfx/pop.wav",
+      "sfxVolume": 0.12
+    },
+    {
+      "id": "slide11_poison_ambush",
+      "durationInFrames": 354,
+      "photo": "photos/thorp/slides/slide11.jpg",
+      "text": "ему подсыпали яд в кофе блокировали колёса и переломали пальцы напарнику",
+      "words": [
+        {
+          "text": "ему",
+          "start": 0.0,
+          "end": 0.54
+        },
+        {
+          "text": "подсыпали",
+          "start": 0.54,
+          "end": 1.07
+        },
+        {
+          "text": "яд",
+          "start": 1.07,
+          "end": 1.61
+        },
+        {
+          "text": "в",
+          "start": 1.61,
+          "end": 2.15
+        },
+        {
+          "text": "кофе",
+          "start": 2.15,
+          "end": 2.68
+        },
+        {
+          "text": "блокировали",
+          "start": 2.68,
+          "end": 3.22
+        },
+        {
+          "text": "колёса",
+          "start": 3.22,
+          "end": 3.75
+        },
+        {
+          "text": "и",
+          "start": 3.75,
+          "end": 4.29
+        },
+        {
+          "text": "переломали",
+          "start": 4.29,
+          "end": 4.83
+        },
+        {
+          "text": "пальцы",
+          "start": 4.83,
+          "end": 5.36
+        },
+        {
+          "text": "напарнику",
+          "start": 5.36,
+          "end": 5.9
+        }
+      ],
+      "badge": {
+        "icon": "⚠️",
+        "label": "Покушения мафии",
+        "sub": "Угроза жизни"
+      },
+      "sfx": "sfx/click.wav",
+      "sfxVolume": 0.1,
+      "widget": {
+        "icon": "☠️",
+        "title": "Попытки устранить Торпа",
+        "value": "Яд в кофе • Саботаж авто",
+        "glowColor": "rgba(239, 68, 68, 0.45)",
+        "borderColor": "rgba(239, 68, 68, 0.65)",
+        "valueColor": "#f87171"
+      }
+    },
+    {
+      "id": "slide12_rules_changed",
+      "durationInFrames": 402,
+      "photo": "photos/thorp/slides/slide12.jpg",
+      "text": "казино изменили правила игры по всей америке но торп пошёл дальше",
+      "words": [
+        {
+          "text": "казино",
+          "start": 0.0,
+          "end": 0.61
+        },
+        {
+          "text": "изменили",
+          "start": 0.61,
+          "end": 1.22
+        },
+        {
+          "text": "правила",
+          "start": 1.22,
+          "end": 1.83
+        },
+        {
+          "text": "игры",
+          "start": 1.83,
+          "end": 2.44
+        },
+        {
+          "text": "по",
+          "start": 2.44,
+          "end": 3.05
+        },
+        {
+          "text": "всей",
+          "start": 3.05,
+          "end": 3.65
+        },
+        {
+          "text": "америке",
+          "start": 3.65,
+          "end": 4.26
+        },
+        {
+          "text": "но",
+          "start": 4.26,
+          "end": 4.87
+        },
+        {
+          "text": "торп",
+          "start": 4.87,
+          "end": 5.48
+        },
+        {
+          "text": "пошёл",
+          "start": 5.48,
+          "end": 6.09
+        },
+        {
+          "text": "дальше",
+          "start": 6.09,
+          "end": 6.7
+        }
+      ],
+      "badge": {
+        "icon": "📜",
+        "label": "Изменение правил США",
+        "sub": "Новый уровень"
+      },
+      "sfx": "sfx/whoosh.wav",
+      "sfxVolume": 0.1,
+      "widget": {
+        "icon": "🏛️",
+        "title": "Реакция казино",
+        "value": "Переписаны правила блэкджека в США",
+        "glowColor": "rgba(245, 158, 11, 0.4)",
+        "borderColor": "rgba(245, 158, 11, 0.6)",
+        "valueColor": "#fbbf24"
+      }
+    },
+    {
+      "id": "slide13_shannon_wearable",
+      "durationInFrames": 312,
+      "photo": "photos/thorp/slides/slide13.jpg",
+      "text": "вместе с гением клодом шенноном он создал первый в истории носимый микрокомпьютер",
+      "words": [
+        {
+          "text": "вместе",
+          "start": 0.0,
+          "end": 0.43
+        },
+        {
+          "text": "с",
+          "start": 0.43,
+          "end": 0.87
+        },
+        {
+          "text": "гением",
+          "start": 0.87,
+          "end": 1.3
+        },
+        {
+          "text": "клодом",
+          "start": 1.3,
+          "end": 1.73
+        },
+        {
+          "text": "шенноном",
+          "start": 1.73,
+          "end": 2.17
+        },
+        {
+          "text": "он",
+          "start": 2.17,
+          "end": 2.6
+        },
+        {
+          "text": "создал",
+          "start": 2.6,
+          "end": 3.03
+        },
+        {
+          "text": "первый",
+          "start": 3.03,
+          "end": 3.47
+        },
+        {
+          "text": "в",
+          "start": 3.47,
+          "end": 3.9
+        },
+        {
+          "text": "истории",
+          "start": 3.9,
+          "end": 4.33
+        },
+        {
+          "text": "носимый",
+          "start": 4.33,
+          "end": 4.77
+        },
+        {
+          "text": "микрокомпьютер",
+          "start": 4.77,
+          "end": 5.2
+        }
+      ],
+      "badge": {
+        "icon": "⚡",
+        "label": "Шеннон & Торп • 1961",
+        "sub": "Секретная лаборатория"
+      },
+      "sfx": "sfx/pop.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "👟",
+        "title": "Первый в мире носимый ПК",
+        "value": "12 транзисторов • Передатчик в обуви",
+        "glowColor": "rgba(16, 185, 129, 0.45)",
+        "borderColor": "rgba(16, 185, 129, 0.65)",
+        "valueColor": "#34d399"
+      }
+    },
+    {
+      "id": "slide14_shoe_computer_climax",
+      "durationInFrames": 297,
+      "photo": "photos/thorp/slides/slide14.jpg",
+      "text": "устройство размером с сигаретную пачку спрятали прямо в каблук ботинка",
+      "words": [
+        {
+          "text": "устройство",
+          "start": 0.0,
+          "end": 0.49
+        },
+        {
+          "text": "размером",
+          "start": 0.49,
+          "end": 0.99
+        },
+        {
+          "text": "с",
+          "start": 0.99,
+          "end": 1.48
+        },
+        {
+          "text": "сигаретную",
+          "start": 1.48,
+          "end": 1.98
+        },
+        {
+          "text": "пачку",
+          "start": 1.98,
+          "end": 2.48
+        },
+        {
+          "text": "спрятали",
+          "start": 2.48,
+          "end": 2.97
+        },
+        {
+          "text": "прямо",
+          "start": 2.97,
+          "end": 3.46
+        },
+        {
+          "text": "в",
+          "start": 3.46,
+          "end": 3.96
+        },
+        {
+          "text": "каблук",
+          "start": 3.96,
+          "end": 4.46
+        },
+        {
+          "text": "ботинка",
+          "start": 4.46,
+          "end": 4.95
+        }
+      ],
+      "badge": {
+        "icon": "🎯",
+        "label": "Секретное оружие",
+        "sub": "Имба математики"
+      },
+      "sfx": "sfx/ping.wav",
+      "sfxVolume": 0.12,
+      "widget": {
+        "icon": "👞",
+        "title": "Компьютер в подошве",
+        "value": "Микрокликер в пальце ноги",
+        "glowColor": "rgba(245, 158, 11, 0.5)",
+        "borderColor": "rgba(245, 158, 11, 0.7)",
+        "valueColor": "#facc15"
+      }
+    }
+  ]
+}

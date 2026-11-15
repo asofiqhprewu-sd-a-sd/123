@@ -1,0 +1,264 @@
+{
+  "title": "История Парижа (60 FPS, Реальные Кадры, Дикторская Озвучка)",
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/ambient_tech.wav",
+  "bgMusicVolume": 0.12,
+  "voiceAudio": "audio/paris/voice.mp3",
+  "voiceVolume": 1.0,
+  "showProgressBar": true,
+  "progressBarColor": "#38bdf8",
+  "scenes": [
+    {
+      "id": "s1_flag_birth",
+      "durationInFrames": 300,
+      "theme": "dark",
+      "text": "рождение парижа на острове сите",
+      "words": [
+        {
+          "text": "рождение",
+          "start": 0.0,
+          "end": 1.0
+        },
+        {
+          "text": "парижа",
+          "start": 1.0,
+          "end": 2.0
+        },
+        {
+          "text": "на",
+          "start": 2.0,
+          "end": 3.0
+        },
+        {
+          "text": "острове",
+          "start": 3.0,
+          "end": 4.0
+        },
+        {
+          "text": "сите",
+          "start": 4.0,
+          "end": 5.0
+        }
+      ],
+      "sfx": "sfx/whoosh.wav",
+      "photo": {
+        "src": "photos/paris/scene1.jpg",
+        "tag": "Остров Сите • Племя паризиев",
+        "glowColor": "rgba(56, 189, 248, 0.25)",
+        "zoomDirection": "in"
+      },
+      "pills": [
+        {
+          "text": "остров сите",
+          "color": "#181a20"
+        },
+        {
+          "text": "река сена",
+          "color": "#181a20"
+        },
+        {
+          "text": "племя паризиев",
+          "color": "#181a20"
+        }
+      ]
+    },
+    {
+      "id": "s2_roman_lutetia",
+      "durationInFrames": 204,
+      "theme": "dark",
+      "text": "римляне построили лютецию",
+      "words": [
+        {
+          "text": "римляне",
+          "start": 0.0,
+          "end": 1.13
+        },
+        {
+          "text": "построили",
+          "start": 1.13,
+          "end": 2.27
+        },
+        {
+          "text": "лютецию",
+          "start": 2.27,
+          "end": 3.4
+        }
+      ],
+      "sfx": "sfx/impact.wav",
+      "photo": {
+        "src": "photos/paris/scene2.jpg",
+        "tag": "Античная Лютеция • Римская империя",
+        "glowColor": "rgba(56, 189, 248, 0.25)",
+        "zoomDirection": "out"
+      },
+      "pills": [
+        {
+          "text": "римские легионы",
+          "color": "#181a20"
+        },
+        {
+          "text": "лютеция",
+          "color": "#181a20"
+        },
+        {
+          "text": "акведуки",
+          "color": "#181a20"
+        }
+      ]
+    },
+    {
+      "id": "s3_medieval_notredame",
+      "durationInFrames": 216,
+      "theme": "dark",
+      "text": "нотр дам де пари",
+      "words": [
+        {
+          "text": "нотр",
+          "start": 0.0,
+          "end": 0.9
+        },
+        {
+          "text": "дам",
+          "start": 0.9,
+          "end": 1.8
+        },
+        {
+          "text": "де",
+          "start": 1.8,
+          "end": 2.7
+        },
+        {
+          "text": "пари",
+          "start": 2.7,
+          "end": 3.6
+        }
+      ],
+      "sfx": "sfx/camera.wav",
+      "photo": {
+        "src": "photos/paris/scene3.jpg",
+        "tag": "Нотр-Дам де Пари • XII век",
+        "glowColor": "rgba(56, 189, 248, 0.25)",
+        "zoomDirection": "in"
+      },
+      "pills": [
+        {
+          "text": "1163 год",
+          "color": "#181a20"
+        },
+        {
+          "text": "готика",
+          "color": "#181a20"
+        },
+        {
+          "text": "182 года стройки",
+          "color": "#181a20"
+        }
+      ]
+    },
+    {
+      "id": "s4_revolution_bastille",
+      "durationInFrames": 216,
+      "theme": "dark",
+      "text": "пожары и штурм бастилии",
+      "words": [
+        {
+          "text": "пожары",
+          "start": 0.0,
+          "end": 0.9
+        },
+        {
+          "text": "и",
+          "start": 0.9,
+          "end": 1.8
+        },
+        {
+          "text": "штурм",
+          "start": 1.8,
+          "end": 2.7
+        },
+        {
+          "text": "бастилии",
+          "start": 2.7,
+          "end": 3.6
+        }
+      ],
+      "sfx": "sfx/impact.wav",
+      "photo": {
+        "src": "photos/paris/scene4.jpg",
+        "tag": "Штурм Бастилии • 14 июля 1789",
+        "glowColor": "rgba(56, 189, 248, 0.25)",
+        "zoomDirection": "in"
+      },
+      "pills": [
+        {
+          "text": "1789 год",
+          "color": "#181a20"
+        },
+        {
+          "text": "штурм бастилии",
+          "color": "#181a20"
+        },
+        {
+          "text": "революция",
+          "color": "#181a20"
+        }
+      ]
+    },
+    {
+      "id": "s5_modern_cityscape",
+      "durationInFrames": 317,
+      "theme": "dark",
+      "text": "эйфелева башня и сердце романтики",
+      "words": [
+        {
+          "text": "эйфелева",
+          "start": 0.0,
+          "end": 1.06
+        },
+        {
+          "text": "башня",
+          "start": 1.06,
+          "end": 2.11
+        },
+        {
+          "text": "и",
+          "start": 2.11,
+          "end": 3.17
+        },
+        {
+          "text": "сердце",
+          "start": 3.17,
+          "end": 4.23
+        },
+        {
+          "text": "романтики",
+          "start": 4.23,
+          "end": 5.28
+        }
+      ],
+      "sfx": "sfx/ping.wav",
+      "photo": {
+        "src": "photos/paris/scene5.jpg",
+        "tag": "Париж • Главный символ мира",
+        "glowColor": "rgba(56, 189, 248, 0.25)",
+        "zoomDirection": "out"
+      },
+      "pills": [
+        {
+          "text": "эйфелева башня",
+          "color": "#181a20"
+        },
+        {
+          "text": "лувр",
+          "color": "#181a20"
+        },
+        {
+          "text": "город света",
+          "color": "#181a20"
+        }
+      ]
+    }
+  ]
+}

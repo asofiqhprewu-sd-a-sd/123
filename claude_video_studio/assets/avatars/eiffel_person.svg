@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 440" width="340" height="440">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <radialGradient id="faceLight" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="80%" stop-color="#fdba74" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </radialGradient>
+  </defs>
+  <!-- Background Card -->
+  <rect width="340" height="440" rx="32" fill="url(#cardBg)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <!-- Victorian Oval Frame -->
+  <ellipse cx="170" cy="180" rx="100" ry="125" fill="#1e293b" stroke="#eab308" stroke-width="4"/>
+  <!-- Shoulders & Suit -->
+  <path d="M 85 340 Q 170 300 255 340 L 270 420 L 70 420 Z" fill="#090d16"/>
+  <!-- White Collar & Bowtie -->
+  <polygon points="170,270 150,290 190,290" fill="#f8fafc"/>
+  <polygon points="160,290 180,290 170,305" fill="#b91c1c"/>
+  <!-- Head & Ears -->
+  <circle cx="112" cy="185" r="16" fill="#fdba74"/>
+  <circle cx="228" cy="185" r="16" fill="#fdba74"/>
+  <ellipse cx="170" cy="180" rx="58" ry="72" fill="url(#faceLight)"/>
+  <!-- Graying Hair -->
+  <path d="M 112 165 C 110 110 230 110 228 165 C 215 130 125 130 112 165 Z" fill="#94a3b8"/>
+  <!-- Eyes & Eyebrows -->
+  <path d="M 135 160 Q 148 156 160 160" stroke="#475569" stroke-width="3" fill="none"/>
+  <path d="M 180 160 Q 192 156 205 160" stroke="#475569" stroke-width="3" fill="none"/>
+  <circle cx="148" cy="170" r="5" fill="#1e293b"/>
+  <circle cx="192" cy="170" r="5" fill="#1e293b"/>
+  <!-- Nose -->
+  <path d="M 170 168 L 167 195 L 175 195" stroke="#ea580c" stroke-width="2.5" fill="none"/>
+  <!-- Distinguished Victorian Beard & Mustache -->
+  <path d="M 135 198 Q 170 190 205 198 Q 220 225 200 255 Q 170 270 140 255 Q 120 225 135 198 Z" fill="#cbd5e1"/>
+  <!-- Monocle with golden chain -->
+  <circle cx="192" cy="170" r="14" fill="none" stroke="#eab308" stroke-width="2.5"/>
+  <path d="M 205 174 Q 225 210 215 285" fill="none" stroke="#eab308" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <!-- Badge on chest -->
+  <circle cx="120" cy="360" r="8" fill="#eab308"/>
+</svg>

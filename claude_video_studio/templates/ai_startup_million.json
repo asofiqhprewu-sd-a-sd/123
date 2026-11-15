@@ -1,0 +1,93 @@
+{
+  "title": "Как студент создал ИИ-агента",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "bgMusic": "music/ambient_tech.wav",
+  "bgMusicVolume": 0.12,
+  "narrator": "avatars/amodei.jpg",
+  "showProgressBar": true,
+  "progressBarColor": "#22c55e",
+  "scenes": [
+    {
+      "id": "s1_hook",
+      "durationInFrames": 90,
+      "theme": "dark",
+      "text": "как за одну ночь стать миллионером",
+      "icon": "icons/rocket.svg",
+      "sfx": "sfx/whoosh.wav",
+      "pills": [
+        { "text": "стартап", "color": "#2563eb" },
+        { "text": "нейросети", "color": "#1f2937" }
+      ]
+    },
+    {
+      "id": "s2_coding",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "всё началось с 50 строк кода",
+      "code": {
+        "filename": "ai_agent.py",
+        "lines": [
+          { "text": "import antigravity, ai_core", "color": "#f43f5e" },
+          { "text": "agent = AutonomousAgent('v2')", "color": "#38bdf8" },
+          { "text": "while True: solve_impossible()", "color": "#4ade80" }
+        ]
+      },
+      "sfx": "sfx/keyboard.wav"
+    },
+    {
+      "id": "s3_viral",
+      "durationInFrames": 100,
+      "theme": "purple",
+      "text": "ролик разлетелся по всему миру",
+      "icon": "icons/fire_viral.svg",
+      "sfx": "sfx/pop.wav",
+      "pills": [
+        { "text": "10 000 000 просмотров", "color": "#ea580c" },
+        { "text": "тренды", "color": "#1f2937" }
+      ]
+    },
+    {
+      "id": "s4_chat",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "и ему написал главный венчурный фонд",
+      "phone": {
+        "contactName": "Sequoia Capital",
+        "messages": [
+          { "from": "them", "text": "Мы протестировали вашего агента. Это невероятно." },
+          { "from": "them", "text": "Мы готовы выписать чек на $15,000,000 прямо сейчас." }
+        ]
+      },
+      "sfx": "sfx/ping.wav"
+    },
+    {
+      "id": "s5_valuation",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "оценка компании взлетела до небес",
+      "counter": {
+        "start": 0,
+        "end": 100000000,
+        "prefix": "$",
+        "suffix": "",
+        "label": "капитализация за 3 месяца",
+        "color": "#22c55e"
+      },
+      "sfx": "sfx/cash.wav"
+    },
+    {
+      "id": "s6_quote",
+      "durationInFrames": 120,
+      "theme": "dark",
+      "text": "главный урок новой эпохи",
+      "quote": {
+        "text": "Один человек с правильной нейросетью теперь может заменить целую корпорацию.",
+        "author": "Основатель стартапа",
+        "title": "21 год"
+      },
+      "sfx": "sfx/impact.wav"
+    }
+  ]
+}

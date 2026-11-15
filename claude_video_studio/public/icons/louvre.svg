@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="palaceBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <filter id="pyramidGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#38bdf8" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- Background historic palace colonnade -->
+  <rect x="50" y="160" width="300" height="180" rx="8" fill="#1e1e24" stroke="url(#palaceBg)" stroke-width="3"/>
+  <line x1="50" y1="210" x2="350" y2="210" stroke="#d97706" stroke-width="2" opacity="0.6"/>
+  <line x1="90" y1="210" x2="90" y2="340" stroke="#d97706" stroke-width="4" opacity="0.5"/>
+  <line x1="130" y1="210" x2="130" y2="340" stroke="#d97706" stroke-width="4" opacity="0.5"/>
+  <line x1="270" y1="210" x2="270" y2="340" stroke="#d97706" stroke-width="4" opacity="0.5"/>
+  <line x1="310" y1="210" x2="310" y2="340" stroke="#d97706" stroke-width="4" opacity="0.5"/>
+  <!-- The Famous Glass Pyramid -->
+  <g filter="url(#pyramidGlow)">
+    <polygon points="200,90 70,340 330,340" fill="url(#glassGrad)" stroke="#7dd3fc" stroke-width="3.5"/>
+    <!-- Glass Facet Lines -->
+    <line x1="200" y1="90" x2="200" y2="340" stroke="#ffffff" stroke-width="2.5" opacity="0.8"/>
+    <line x1="200" y1="90" x2="135" y2="340" stroke="#7dd3fc" stroke-width="2" opacity="0.7"/>
+    <line x1="200" y1="90" x2="265" y2="340" stroke="#7dd3fc" stroke-width="2" opacity="0.7"/>
+    <!-- Horizontal glass tiers -->
+    <line x1="174" y1="140" x2="226" y2="140" stroke="#7dd3fc" stroke-width="2" opacity="0.7"/>
+    <line x1="148" y1="190" x2="252" y2="190" stroke="#7dd3fc" stroke-width="2" opacity="0.7"/>
+    <line x1="122" y1="240" x2="278" y2="240" stroke="#7dd3fc" stroke-width="2" opacity="0.7"/>
+    <line x1="96" y1="290" x2="304" y2="290" stroke="#7dd3fc" stroke-width="2" opacity="0.7"/>
+    <!-- Diamond internal braces -->
+    <polygon points="200,140 187,165 200,190 213,165" fill="#fef08a" opacity="0.5"/>
+    <polygon points="200,190 174,215 200,240 226,215" fill="#fef08a" opacity="0.6"/>
+    <polygon points="200,240 161,265 200,290 239,265" fill="#fef08a" opacity="0.7"/>
+  </g>
+</svg>
